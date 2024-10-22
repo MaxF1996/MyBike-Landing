@@ -66,6 +66,7 @@
       transition: transform 0.2s ease-in-out, opacity 0.2s ease-in-out;
       opacity: 0;
       transform: translateX(calc(32px + 20px));
+      cursor: default;
     }
   }
 
