@@ -67,6 +67,7 @@
       opacity: 0;
       transform: translateX(calc(32px + 20px));
       cursor: default;
+      pointer-events: none;
     }
   }
 
