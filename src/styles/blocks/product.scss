@@ -1,4 +1,7 @@
 .product {
+  display: flex;
+  flex-direction: column;
+
   &__photo {
     display: block;
     width: 100%;
@@ -31,6 +34,7 @@
 
   &__price {
     margin: 0;
+    margin-top: auto;
     font-size: 24px;
     font-weight: 700;
     line-height: 1.4;
